@@ -23,6 +23,8 @@ console.log(`the result is ${ret}`)
 
 math(29,89,90);
 
+// type aliases variables
+
 type strNum = string | number;
 
 let test: strNum = 100

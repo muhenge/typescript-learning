@@ -9,5 +9,9 @@ class Invoice {
         return `the name = ${this.client}, description = ${this.desc}, amount = ${this.amount}`;
     }
 }
-const doc = new Invoice('herve', 'for a computer', 1500000);
-console.log(doc);
+const docOne = new Invoice('herve', 'for a computer', 1500000);
+const docTwo = new Invoice('evan', 'for a car', 159900000);
+let allDocs = [];
+allDocs.push(docOne);
+allDocs.push(docTwo);
+console.log(allDocs[0]);

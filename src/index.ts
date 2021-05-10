@@ -42,3 +42,28 @@ let funPerson = (person:obj) => {
     console.log(person.name)
 }
 
+// functions
+
+let hey: Function;
+
+hey = () =>{
+    console.log('inside hey function')
+}
+
+hey();
+
+let high:(a:string, b:string) => void
+
+high = (name:string,greeting:string) => {
+    console.log(`hello ${name} ${greeting}`)
+}
+
+high('herve','amakuru yawe');
+
+let calc:(a:number,b:number,c:number) => number 
+
+calc = (x:number,y:number,z:number) => {
+    return x+y+z;
+}
+
+console.log(calc(89,90,130))

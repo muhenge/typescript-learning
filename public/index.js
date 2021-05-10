@@ -19,4 +19,22 @@ let test = 100;
 console.log(test);
 test = 'test';
 console.log(test);
-let person;
+let funPerson = (person) => {
+    console.log(person.name);
+};
+// functions
+let hey;
+hey = () => {
+    console.log('inside hey function');
+};
+hey();
+let high;
+high = (name, greeting) => {
+    console.log(`hello ${name} ${greeting}`);
+};
+high('herve', 'amakuru yawe');
+let calc;
+calc = (x, y, z) => {
+    return x + y + z;
+};
+console.log(calc(89, 90, 130));

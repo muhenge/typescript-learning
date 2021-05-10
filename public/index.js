@@ -15,3 +15,7 @@ const math2 = (d, e) => {
 let ret = math2(78, 98);
 console.log(`the result is ${ret}`);
 math(29, 89, 90);
+let test = 100;
+console.log(test);
+test = 'test';
+console.log(test);

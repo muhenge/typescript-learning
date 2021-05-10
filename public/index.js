@@ -20,8 +20,9 @@ console.log(test);
 test = 'test';
 console.log(test);
 let funPerson = (person) => {
-    console.log(person.name);
+    console.log(`this inside object type aliases : ${person.name}`);
 };
+funPerson({ name: 'hello', age: 4 });
 // functions
 let hey;
 hey = () => {

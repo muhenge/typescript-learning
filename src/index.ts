@@ -36,11 +36,13 @@ test = 'test';
 console.log(test)
 
 // type aliases objects
-type obj = { name:strNum, age:string }
+type obj = { name:strNum, age:number }
 
 let funPerson = (person:obj) => {
-    console.log(person.name)
+    console.log(`this inside object type aliases : ${person.name}`)
 }
+
+funPerson({name:'hello',age:4})
 
 // functions
 

@@ -35,3 +35,10 @@ test = 'test';
 
 console.log(test)
 
+// type aliases objects
+type obj = { name:strNum, age:string }
+
+let funPerson = (person:obj) => {
+    console.log(person.name)
+}
+

@@ -19,3 +19,4 @@ let test = 100;
 console.log(test);
 test = 'test';
 console.log(test);
+let person;

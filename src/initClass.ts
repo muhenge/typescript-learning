@@ -1,12 +1,12 @@
 export class Invoice {
-    private client: string;
-    readonly desc: string | number;
-    amount: number;
+    // private client: string;
+    // readonly desc: string | number;
+    // amount: number;
 
-    constructor(n:string,d:string|number,c:number){
-        this.client = n;
-        this.desc = d;
-        this.amount = c
+    constructor(private client:string, readonly desc:string | number, public amount: number ){
+        // this.client = n;
+        // this.desc = d;
+        // this.amount = c
     }
 
     format(){

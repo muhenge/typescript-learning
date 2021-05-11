@@ -1,4 +1,3 @@
-"use strict";
 const stOne = {
     name: 'herve',
     age: 23,
@@ -12,3 +11,4 @@ const greeting = (st) => {
 };
 greeting(stOne);
 console.log(stOne.courses);
+export {};

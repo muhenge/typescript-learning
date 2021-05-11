@@ -21,3 +21,7 @@ const greeting = (st: isStudent) => {
 greeting(stOne)
 
 console.log(stOne.courses);
+
+export interface hasToFormat {
+    format():string
+}

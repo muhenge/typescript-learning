@@ -1,6 +1,6 @@
 class Invoice {
-    client: string;
-    desc: string | number;
+    private client: string;
+    readonly desc: string | number;
     amount: number;
 
     constructor(n:string,d:string|number,c:number){
@@ -17,9 +17,13 @@ class Invoice {
 const docOne = new Invoice('herve','for a computer', 1500000);
 const docTwo = new Invoice('evan','for a car', 159900000);
 
+console.log(docOne.amount)
+
+console.log(docOne.desc)
+
 let allDocs: Invoice[]=[]
 
 allDocs.push(docOne);
 allDocs.push(docTwo);
 
-console.log(allDocs[0]);
+console.log(allDocs);

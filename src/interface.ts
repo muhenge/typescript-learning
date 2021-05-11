@@ -14,4 +14,10 @@ const stOne: isStudent ={
     }
 }
 
+const greeting = (st: isStudent) => {
+    console.log(`hello ${st.name}`)
+}
+
+greeting(stOne)
+
 console.log(stOne.courses);

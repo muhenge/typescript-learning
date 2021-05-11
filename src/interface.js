@@ -6,4 +6,8 @@ var stOne = {
         return { cname: 'ruby', marks: 90 };
     }
 };
+var greeting = function (st) {
+    console.log("hello " + st.name);
+};
+greeting(stOne);
 console.log(stOne.courses);
